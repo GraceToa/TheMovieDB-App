@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="FjL-pX-gJd">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="37b-ZB-7eg">
+            <objects>
+                <viewController id="u7U-7z-qrU" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="GEa-rh-OVd">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="1cm-xM-UQm"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" image="magnifyingglass" catalog="system" id="9eC-9I-dEP"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HmZ-d8-7zS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="244" y="-58"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="RK2-bk-FgM">
+            <objects>
+                <viewController id="Knu-Qm-gpk" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cKr-B8-YW2">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="SQx-JI-KJQ"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" image="star" catalog="system" id="iIG-e0-LLN"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7QC-Ta-nBr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="244" y="-706"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="d1d-ps-bCT">
+            <objects>
+                <tabBarController id="FjL-pX-gJd" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="aVm-RA-oY9">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="Knu-Qm-gpk" kind="relationship" relationship="viewControllers" id="kfK-RG-4Lq"/>
+                        <segue destination="u7U-7z-qrU" kind="relationship" relationship="viewControllers" id="t8p-vQ-rMU"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9Lf-dO-C6K" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-676" y="-382"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="magnifyingglass" catalog="system" width="128" height="115"/>
+        <image name="star" catalog="system" width="128" height="116"/>
+    </resources>
+</document>
