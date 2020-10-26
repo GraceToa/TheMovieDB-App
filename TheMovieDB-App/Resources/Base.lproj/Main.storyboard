@@ -17,11 +17,11 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="1cm-xM-UQm"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" image="magnifyingglass" catalog="system" id="9eC-9I-dEP"/>
+                    <navigationItem key="navigationItem" id="eED-D0-w6G"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HmZ-d8-7zS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="244" y="-58"/>
+            <point key="canvasLocation" x="1153.6231884057972" y="-58.258928571428569"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="RK2-bk-FgM">
@@ -33,11 +33,22 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="SQx-JI-KJQ"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" image="star" catalog="system" id="iIG-e0-LLN"/>
+                    <navigationItem key="navigationItem" id="acI-n6-fmT">
+                        <nil key="title"/>
+                        <segmentedControl key="titleView" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="0" id="Teb-1H-Oai">
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <segments>
+                                <segment title="First"/>
+                                <segment title="Second"/>
+                                <segment title=""/>
+                                <segment title=""/>
+                            </segments>
+                        </segmentedControl>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7QC-Ta-nBr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="244" y="-706"/>
+            <point key="canvasLocation" x="1153.6231884057972" y="-706.47321428571422"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="d1d-ps-bCT">
@@ -49,13 +60,51 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
-                        <segue destination="Knu-Qm-gpk" kind="relationship" relationship="viewControllers" id="kfK-RG-4Lq"/>
-                        <segue destination="u7U-7z-qrU" kind="relationship" relationship="viewControllers" id="t8p-vQ-rMU"/>
+                        <segue destination="hPl-qP-LJp" kind="relationship" relationship="viewControllers" id="kfK-RG-4Lq"/>
+                        <segue destination="bXp-Iq-g4Q" kind="relationship" relationship="viewControllers" id="t8p-vQ-rMU"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9Lf-dO-C6K" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-676" y="-382"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="rGG-nU-9cf">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="hPl-qP-LJp" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" image="star" catalog="system" id="iIG-e0-LLN"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="d7K-lz-wkU">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Knu-Qm-gpk" kind="relationship" relationship="rootViewController" id="0cM-iz-65h"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vo5-au-lpv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="243.47826086956525" y="-706.47321428571422"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="lgR-sR-7Dw">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="bXp-Iq-g4Q" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" image="magnifyingglass" catalog="system" id="9eC-9I-dEP"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="h4E-Vz-QKs">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="u7U-7z-qrU" kind="relationship" relationship="rootViewController" id="YNj-r9-7pl"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7be-lF-gBm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="243.47826086956525" y="-58.258928571428569"/>
         </scene>
     </scenes>
     <resources>

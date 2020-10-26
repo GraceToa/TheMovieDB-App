@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -54,7 +54,6 @@
 				4970C9C9497BD6CE711CA45F /* Pods-TheMovieDB-App.debug.xcconfig */,
 				6D6B273530EDB14DA546F5CF /* Pods-TheMovieDB-App.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -89,8 +88,8 @@
 		C0B2EC102546F08D0076160A /* App */ = {
 			isa = PBXGroup;
 			children = (
-				C0B2EC162546F0EC0076160A /* DetailMovie */,
 				C0B2EC112546F09C0076160A /* Movie */,
+				C0B2EC162546F0EC0076160A /* DetailMovie */,
 			);
 			path = App;
 			sourceTree = "<group>";
