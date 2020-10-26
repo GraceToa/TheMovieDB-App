@@ -13,6 +13,9 @@
 		C0B2EC042546E8070076160A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0B2EC022546E8070076160A /* Main.storyboard */; };
 		C0B2EC062546E80C0076160A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0B2EC052546E80C0076160A /* Assets.xcassets */; };
 		C0B2EC092546E80C0076160A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0B2EC072546E80C0076160A /* LaunchScreen.storyboard */; };
+		C0B2EC20254713690076160A /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B2EC1F254713690076160A /* Movie.swift */; };
+		C0B2EC22254713750076160A /* Movies.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B2EC21254713750076160A /* Movies.swift */; };
+		C0B2EC24254713810076160A /* MovieResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B2EC23254713810076160A /* MovieResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		C0B2EC052546E80C0076160A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C0B2EC082546E80C0076160A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C0B2EC0A2546E80C0076160A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0B2EC1F254713690076160A /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		C0B2EC21254713750076160A /* Movies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movies.swift; sourceTree = "<group>"; };
+		C0B2EC23254713810076160A /* MovieResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +114,9 @@
 		C0B2EC122546F0AF0076160A /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				C0B2EC1F254713690076160A /* Movie.swift */,
+				C0B2EC21254713750076160A /* Movies.swift */,
+				C0B2EC23254713810076160A /* MovieResponse.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -324,7 +333,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C0B2EBFD2546E8070076160A /* AppDelegate.swift in Sources */,
+				C0B2EC24254713810076160A /* MovieResponse.swift in Sources */,
 				C0B2EBFF2546E8070076160A /* SceneDelegate.swift in Sources */,
+				C0B2EC22254713750076160A /* Movies.swift in Sources */,
+				C0B2EC20254713690076160A /* Movie.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
